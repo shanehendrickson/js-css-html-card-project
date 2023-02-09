@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/c7ed50e499.js" crossorigin="anonymous"></script>
+
+  <script src="app.js" defer></script>
+
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="modal-container hidden" id="modal-container">
+    <div class="modal">
+      <div class="content">
+        <header>
+          <p>Add a new Card</p>
+          <button class="btn btn-close" id="btn-close"><i class="fa-solid fa-xmark"></i></button>
+          
+        </header>
+
+        <form action="#">
+
+          <div class="row title">
+            <label>Title</label>
+            <input id="form-title" type="text">
+          </div>
+
+          <!-- image input start -->
+          
+          <!-- image input end -->
+
+          <div class="row img-caption">
+            <label>Caption</label>
+            <input id="form-caption" type="text">
+          </div>
+
+          <div class="row heading-1">
+            <label>Heading 1</label>
+            <input id="form-heading-1" type="text">
+          </div>
+
+          <div class="row content-1">
+            <label>Content 1</label>
+            <textarea id="form-content-1"></textarea>
+          </div>
+
+          <div class="row heading-2">
+            <label>Heading 2</label>
+            <input id="form-heading-2" type="text">
+          </div>
+
+          <div class="row content-2">
+            <label>Content 2</label>
+            <textarea id="form-content-2"></textarea>
+          </div>
+
+          <button id="add-card">Add Card</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrapper">
+
+      <div class="card new-card" id="new-card">
+        <div class="icon"><i class="fa-solid fa-plus"></i></div>
+        <p>Add a new card</p>
+      </div>
+
+
+    
+  </div>
+
+</body>
+</html>
